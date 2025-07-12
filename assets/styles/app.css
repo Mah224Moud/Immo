@@ -1,3 +1,2 @@
-body {
-    background-color: skyblue;
-}
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));

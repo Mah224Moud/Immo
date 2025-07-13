@@ -1,5 +1,4 @@
-Si ce n'est pas responsive:
-Rajouter ceci dans <head> 
+Si ce n'est pas responsive, rajouter ceci dans `<head>` 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 ```

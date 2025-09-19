@@ -18,3 +18,23 @@ Pour tester en local (telephone):
     ```bash
     http://172.20.10.4:8000
     ```
+
+```bash
+House:
+  adresse: "12 rue des Lilas, Lyon"
+  type: "Maison individuelle / Appartement / Studio"
+  rent: 950           # Loyer mensuel en euros
+  surface: 85         # Surface en m²
+  rooms: 4            # Nombre de pièces
+  bedrooms: 3         # Chambres
+  bathrooms: 1        # Salles de bain
+  furnished: true     # Meublé ou non
+  parking: "Garage / Place / Aucun"
+  garden: true        # Jardin ou non
+  balcony: false      # Balcon ou non
+  heating: "Gaz / Électrique / Collectif"
+  availability_status: "Immédiate / Date précise"
+  availability_date: null 
+  description: "Maison lumineuse proche commerces et transports"
+  
+```

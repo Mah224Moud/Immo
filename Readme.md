@@ -36,5 +36,20 @@ House:
   availability_status: "Immédiate / Date précise"
   availability_date: null 
   description: "Maison lumineuse proche commerces et transports"
-  
+```
+
+```bash
+LeaseContract:
+  id: 1
+  tenant: User           # Le locataire (référence vers l'utilisateur)
+  house: House           # La maison ou l’appartement loué
+  contractType: "Bail habitation / Bail commercial / Meublé"
+  startDate: 2025-10-01  # Début du bail
+  endDate: 2026-09-30    # Fin prévue (ou null si durée indéterminée)
+  rent: 1500000          # Montant mensuel (lié à la maison mais peut être fixé dans le contrat)
+  charges: 50000         # Charges locatives (si séparées)
+  deposit: 3000000       # Caution
+  paymentFrequency: "Mensuel / Trimestriel"
+  status: "Actif / Résilié / En attente"
+  signedAt: 2025-09-20   # Date de signature du contrat
 ```
